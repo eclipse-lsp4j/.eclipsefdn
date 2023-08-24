@@ -30,8 +30,6 @@ orgs.newOrg('eclipse-lsp4j') {
       description: "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java.",
       has_wiki: false,
       homepage: "https://eclipse.org/lsp4j",
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       topics+: [
         "eclipse",
         "java",

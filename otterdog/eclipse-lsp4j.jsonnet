@@ -38,7 +38,7 @@ orgs.newOrg('eclipse-lsp4j') {
       ],
       web_commit_signoff_required: false,
       branch_protection_rules: [
-        orgs.newBranchProtectionRule("main") {
+        orgs.newBranchProtectionRule('main') {
           required_approving_review_count: 0,
         },
       ],

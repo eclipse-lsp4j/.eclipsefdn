@@ -26,7 +26,9 @@ orgs.newOrg('eclipse-lsp4j') {
   ],
   _repositories+:: [
     orgs.newRepo('lsp4j') {
+      allow_merge_commit: true,
       allow_update_branch: false,
+      delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java.",
       has_wiki: false,

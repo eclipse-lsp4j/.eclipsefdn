@@ -1,6 +1,6 @@
 site_name: Otterdog configuration @ eclipse-lsp4j
 site_description: Otterdog configuration @ eclipse-lsp4j
-strict: true
+strict: false
 
 site_url: https://eclipse-lsp4j.github.io/.eclipsefdn/
 

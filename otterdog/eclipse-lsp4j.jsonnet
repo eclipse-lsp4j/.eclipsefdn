@@ -3,7 +3,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 orgs.newOrg('eclipse-lsp4j') {
   settings+: {
     billing_email: "webmaster@eclipse.org",
-    default_repository_permission: "none",
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "",
     name: "Eclipse LSP4J™",
@@ -39,6 +38,9 @@ orgs.newOrg('eclipse-lsp4j') {
         "language-server-protocol"
       ],
       web_commit_signoff_required: false,
+      workflows+: {
+        actions_can_approve_pull_request_reviews: false,
+      },
       branch_protection_rules: [
         orgs.newBranchProtectionRule('main') {
           required_approving_review_count: 0,

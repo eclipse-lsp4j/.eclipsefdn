@@ -5,8 +5,6 @@ orgs.newOrg('eclipse-lsp4j') {
     dependabot_security_updates_enabled_for_new_repositories: false,
     description: "",
     name: "Eclipse LSP4J™",
-    packages_containers_internal: false,
-    packages_containers_public: false,
     readers_can_create_discussions: true,
     web_commit_signoff_required: false,
     workflows+: {
@@ -29,6 +27,7 @@ orgs.newOrg('eclipse-lsp4j') {
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
       description: "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java.",
+      has_discussions: true,
       has_wiki: false,
       homepage: "https://eclipse.org/lsp4j",
       topics+: [

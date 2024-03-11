@@ -36,9 +36,6 @@ orgs.newOrg('eclipse-lsp4j') {
         "language-server-protocol"
       ],
       web_commit_signoff_required: false,
-      workflows+: {
-        actions_can_approve_pull_request_reviews: false,
-      },
       branch_protection_rules: [
         orgs.newBranchProtectionRule('main') {
           required_approving_review_count: 0,

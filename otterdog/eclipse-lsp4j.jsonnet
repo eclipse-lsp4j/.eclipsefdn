@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-lsp4j') {
+orgs.newOrg('technology.lsp4j', 'eclipse-lsp4j') {
   settings+: {
     description: "",
     name: "Eclipse LSP4J™",

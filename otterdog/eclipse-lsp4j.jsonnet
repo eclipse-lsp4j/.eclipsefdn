@@ -21,7 +21,7 @@ orgs.newOrg('technology.lsp4j', 'eclipse-lsp4j') {
   ],
   _repositories+:: [
     orgs.newRepo('lsp4j') {
-      allow_merge_commit: true,
+      allow_merge_commit: false,
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
